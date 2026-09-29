@@ -1,0 +1,83 @@
+[
+  {
+    "id":"classcraft-east-paulding",
+    "type":"vendor-case-study",
+    "strength":"illustrative",
+    "title":"East Paulding Middle School: referrals",
+    "result":"85% drop in referrals in one term",
+    "details":"Reported by Classcraft/HMH as a school case study. Useful as a concrete implementation example, but not a randomized causal estimate.",
+    "url":"https://classcraft.com/"
+  },
+  {
+    "id":"classcraft-tabor",
+    "type":"vendor-case-study",
+    "strength":"illustrative",
+    "title":"Tabor City Middle School: classroom disruptions",
+    "result":"91% drop in classroom disruptions (59 to 5)",
+    "details":"Vendor case study also reported referrals falling from 257 to 49 (80.9%), fights from 14 to 2, and several other incident categories declining. Treat as descriptive school-level evidence.",
+    "url":"https://cdn.featuredcustomers.com/CustomerCaseStudy.document/classcraft_tabor-city-middle-school_554746.pdf"
+  },
+  {
+    "id":"ies-classcraft-rct",
+    "type":"federal-research-project",
+    "strength":"ongoing-rct",
+    "title":"IES/SRI Initial Efficacy Study of Classcraft",
+    "result":"Five-year randomized efficacy study funded in 2023",
+    "details":"IES notes that Classcraft had not previously been rigorously studied in an RCT and describes use by over 30,000 teachers and 1 million active student participants at the time of the grant. Award period: 2023–2028.",
+    "url":"https://ies.ed.gov/use-work/awards/initial-efficacy-study-classcraft-gamified-approach-classroom-management"
+  },
+  {
+    "id":"zhang-classcraft-meta",
+    "type":"meta-analysis",
+    "strength":"independent",
+    "title":"Classcraft-centered content analysis and meta-analysis",
+    "result":"Learning achievement d=0.621; motivation d=0.608",
+    "details":"2021 review/meta-analysis of gamification platforms including Classcraft reported similar positive effects on learning achievement and motivation. Interpret as evidence for the broader approach, not a Classcraft-only causal effect.",
+    "url":"https://doi.org/10.1155/2021/9429112"
+  },
+  {
+    "id":"sailer-homner-2020",
+    "type":"meta-analysis",
+    "strength":"independent",
+    "title":"The Gamification of Learning: a Meta-analysis",
+    "result":"Cognitive g=0.49; motivational g=0.36; behavioral g=0.25",
+    "details":"Random-effects meta-analysis found statistically significant small-to-moderate effects across cognitive, motivational and behavioral learning outcomes.",
+    "url":"https://doi.org/10.1007/s10648-019-09498-w"
+  },
+  {
+    "id":"bai-hew-huang-2020",
+    "type":"meta-analysis",
+    "strength":"independent",
+    "title":"Does gamification improve student learning outcome?",
+    "result":"Overall learning-performance Hedges' g=0.504",
+    "details":"30 independent interventions and 3,202 participants. Qualitative synthesis also identified anxiety/jealousy as possible downsides, reinforcing the need for cooperative and non-shaming design.",
+    "url":"https://doi.org/10.1016/j.edurev.2020.100322"
+  },
+  {
+    "id":"pbis-rct",
+    "type":"randomized-controlled-trial",
+    "strength":"strong",
+    "title":"School-Wide PBIS effectiveness trial",
+    "result":"Students were 33% less likely to receive an office discipline referral",
+    "details":"Group randomized trial across 37 elementary schools and 12,344 students over four school years; significant improvements were also reported in behavior problems, concentration, emotion regulation and prosocial behavior.",
+    "url":"https://pubmed.ncbi.nlm.nih.gov/23071207/"
+  },
+  {
+    "id":"wwc-behavior-2024",
+    "type":"practice-guide",
+    "strength":"strong-evidence-practices",
+    "title":"What Works Clearinghouse: Teacher-Delivered Behavioral Interventions K–5",
+    "result":"Strong evidence for clear expectations, reminders, and acknowledgement of expected behavior",
+    "details":"Supports the platform's emphasis on explicitly teaching expectations and providing positive feedback rather than relying on punishment mechanics.",
+    "url":"https://ies.ed.gov/ncee/WWC/PracticeGuide/31/EvidenceBase"
+  },
+  {
+    "id":"sdt-meta-2024",
+    "type":"meta-analysis",
+    "strength":"independent",
+    "title":"Gamification and intrinsic motivation / psychological needs",
+    "result":"Intrinsic motivation g=0.257; autonomy g=0.638; relatedness g=1.776",
+    "details":"35 interventions involving about 2,500 participants. Supports autonomy and relatedness as design targets while cautioning that competence effects were smaller.",
+    "url":"https://link.springer.com/article/10.1007/s11423-023-10337-7"
+  }
+]

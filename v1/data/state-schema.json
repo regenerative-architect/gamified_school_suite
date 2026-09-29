@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level Up Learning Local Workspace State",
+  "type": "object",
+  "properties": {
+    "version": {"type": "integer", "minimum": 1},
+    "theme": {"enum": ["dark", "light"]},
+    "reduceMotion": {"type": "boolean"},
+    "readinessDays": {"type": "integer", "minimum": 0},
+    "readinessTarget": {"type": "integer", "minimum": 1, "maximum": 60},
+    "questsCompleted": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "xp": {"type": "integer", "minimum": 0},
+    "notes": {"type": "array", "items": {"type": "object"}},
+    "events": {"type": "array", "items": {"type": "object"}}
+  },
+  "additionalProperties": true
+}

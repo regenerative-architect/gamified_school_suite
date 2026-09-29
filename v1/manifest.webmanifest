@@ -1,0 +1,9 @@
+{
+  "name":"Level Up Learning — K–12 Gamified School OS",
+  "short_name":"Level Up",
+  "start_url":"./index.html#overview",
+  "display":"standalone",
+  "background_color":"#07111f",
+  "theme_color":"#07111f",
+  "icons":[{"src":"./assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

@@ -1,0 +1,10 @@
+[
+  {"id":"q1","title":"The Quiet Launch","domain":"Culture","xp":120,"team":true,"minutes":15,"goal":"Co-create three positively stated school expectations and examples for hallways, classrooms and shared spaces."},
+  {"id":"q2","title":"Evidence Hunters","domain":"Learning","xp":150,"team":true,"minutes":35,"goal":"Find two credible sources for a class claim, identify limitations, and explain why one source is stronger."},
+  {"id":"q3","title":"Kindness Relay","domain":"Belonging","xp":100,"team":true,"minutes":20,"goal":"Complete three specific, observable acts that make another student's learning easier; reflection is required for credit."},
+  {"id":"q4","title":"Design the Future Classroom","domain":"Agency","xp":180,"team":true,"minutes":45,"goal":"Propose one change to the learning environment, predict benefits/risks, and present a low-cost pilot."},
+  {"id":"q5","title":"Mastery Boss: Explain It Three Ways","domain":"Academic","xp":200,"team":false,"minutes":30,"goal":"Demonstrate mastery of one concept using words, a diagram, and a worked example."},
+  {"id":"q6","title":"Repair Quest","domain":"Restorative","xp":140,"team":false,"minutes":20,"goal":"After a conflict, identify impact, choose a safe repair action, and document what support would reduce recurrence. Participation must never replace required safeguarding procedures."},
+  {"id":"q7","title":"Community Cartographers","domain":"Civic","xp":170,"team":true,"minutes":40,"goal":"Map five helpful resources in the school/community and explain who can access each resource."},
+  {"id":"q8","title":"Build a Better Rule","domain":"Governance","xp":160,"team":true,"minutes":35,"goal":"Evaluate one classroom routine using clarity, fairness, feasibility and accessibility; propose a revision."}
+]

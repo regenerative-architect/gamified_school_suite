@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="Level Up Learning: evidence-grounded K–12 gamified school transformation pitch deck and implementation operating system.">
+<title>Level Up Learning — K–12 Gamified School OS</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#workspace">Skip to workspace</a>
+<noscript><div class="notice warn" style="margin:1rem"><strong>JavaScript is disabled.</strong> Core documentation remains available in README.md and docs/. The interactive deck, countdown, planner, local state, search, and diagnostics require JavaScript.</div></noscript>
+
+<div id="splash" class="splash" role="dialog" aria-modal="true" aria-labelledby="splash-title">
+  <div class="splash-stars" aria-hidden="true"></div>
+  <div class="splash-card">
+    <p class="eyebrow">A school-wide experience, not another points app</p>
+    <h1 id="splash-title">LEVEL UP<br>LEARNING</h1>
+    <p class="lead" style="margin-inline:auto">An evidence-grounded K–12 transformation system: anticipation → reveal → quests → mastery → belonging → measurable improvement.</p>
+    <div class="splash-track" aria-hidden="true"><i id="splash-progress"></i></div>
+    <p id="splash-status" class="muted" aria-live="polite">Preparing the realm…</p>
+    <div class="button-row" style="justify-content:center"><button class="primary" id="enter-app">Enter the school transformation lab</button><button class="secondary" id="skip-next">Skip splash next time</button></div>
+    <small class="muted">Failsafe: this screen dismisses automatically even if an optional subsystem fails.</small>
+  </div>
+</div>
+
+<header class="topbar">
+  <a class="brand" href="#overview"><span class="brand-mark">✦</span><span><strong>Level Up Learning</strong><small>K–12 Gamified School OS</small></span></a>
+  <nav id="top-nav" class="topnav" aria-label="Primary navigation"></nav>
+  <div class="top-actions">
+    <button class="icon-btn" id="search-button" title="Search (Ctrl/⌘ K)" aria-label="Open global search">⌕</button>
+    <button class="icon-btn" id="theme-toggle" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    <button class="icon-btn" id="motion-toggle" title="Toggle motion" aria-label="Toggle motion">≈</button>
+    <button class="icon-btn mobile-only" id="drawer-toggle" aria-controls="sidebar" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<div class="shell">
+<aside id="sidebar" class="sidebar" aria-label="Workspace navigation">
+  <div class="status-card"><div><span id="online-dot" class="dot"></span><strong id="online-label">Checking…</strong></div><small id="pwa-label">PWA status pending</small></div>
+  <nav id="side-nav" class="side-nav"></nav>
+  <div class="spacer"></div>
+  <button id="export-state" class="secondary full">Export workspace JSON</button>
+  <label class="secondary full" style="display:block;text-align:center;margin-top:.5rem">Import workspace JSON<input id="import-state" type="file" accept="application/json,.json" hidden></label>
+  <small class="muted">Student-identifying data is not required. This prototype stores configuration locally unless you explicitly export it.</small>
+</aside>
+
+<main id="workspace" tabindex="-1">
+  <div class="breadcrumbs" id="breadcrumbs"></div>
+
+  <section id="overview" class="route active" data-route="overview">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Evidence × spectacle × agency × safeguarding</p>
+        <h1>Make school feel like a world worth entering.</h1>
+        <p class="lead">This bundle turns the pitch into an operating system: a board-ready evidence deck, teaser/signage campaign, ethical readiness countdown, cinematic launch, Classcraft-inspired game loop, quests, PBIS/SEL alignment, student/teacher/family/admin modes, pilot analytics, privacy safeguards, offline support, and deterministic planning.</p>
+        <div class="hero-actions"><a class="primary button" href="#pitch">Open pitch deck</a><a class="secondary button" href="#launch">Design the reveal</a><a class="secondary button" href="#evidence">Inspect evidence</a></div>
+      </div>
+      <div class="hero-orbit" title="Optional constellation-style progress visual"></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>85%</strong><span>referral reduction reported in one original Classcraft school case study*</span></div>
+      <div class="stat"><strong>91%</strong><span>classroom-disruption reduction reported at Tabor City*</span></div>
+      <div class="stat"><strong>g=.49</strong><span>cognitive effect in a broad gamification meta-analysis</span></div>
+      <div class="stat"><strong>33%</strong><span>lower odds of an office referral in a 37-school PBIS RCT</span></div>
+    </div>
+    <div class="notice warn"><strong>*Evidence labeling matters.</strong> The 85% and 91% figures are vendor-reported case-study results, useful as implementation signals but not equivalent to randomized causal evidence. Independent gamification and PBIS research is shown separately throughout the OS.</div>
+    <div class="grid three">
+      <article class="panel"><h2>1. Anticipation</h2><p>Teaser signage, mystery language, a schoolwide readiness streak, student curiosity hooks, and staff scripts create expectancy without threats or public blame.</p></article>
+      <article class="panel"><h2>2. Captivation</h2><p>A cinematic reveal, story world, teams, roles, quests, music/projection options, live demonstrations, and a first shared victory create an immediate emotional anchor.</p></article>
+      <article class="panel"><h2>3. Durable change</h2><p>Positive expectations, autonomy, mastery, relatedness, restorative responses, evidence-backed measurement, anti-Goodhart rules, and teacher-friendly workflows keep the system from becoming superficial.</p></article>
+    </div>
+    <article class="panel"><h2>Design thesis</h2><blockquote>Gamification should make meaningful learning and prosocial participation easier to see, easier to celebrate, and easier to sustain—without turning children into scores, coercing compliance, or withholding essential learning and support.</blockquote></article>
+  </section>
+
+  <section id="pitch" class="route" data-route="pitch">
+    <div class="page-head"><p class="eyebrow">Board / district / school leadership</p><h1>Interactive pitch deck</h1><p class="lead">A complete evidence-grounded narrative. Use arrow keys in fullscreen presenter mode; print this route to produce a PDF-style slide handout.</p></div>
+    <div class="notice deck-note"><strong>Source discipline:</strong> slides distinguish independent meta-analysis, randomized evidence, ongoing research, vendor case studies, and design hypotheses.</div>
+    <div class="deck-shell"><div><div id="deck-list" class="deck-list"></div></div><div><div id="slide-stage" class="slide-stage"></div><div class="deck-controls"><button id="prev-slide" class="secondary">← Previous</button><button id="fullscreen-deck" class="primary">Presenter mode</button><button id="next-slide" class="secondary">Next →</button></div></div></div>
+  </section>
+
+  <section id="evidence" class="route" data-route="evidence">
+    <div class="page-head"><p class="eyebrow">Evidence matrix</p><h1>What the research actually supports</h1><p class="lead">A pitch becomes stronger when it can say “we know,” “we suspect,” and “we still need to test” without blending those categories.</p></div>
+    <div class="grid three">
+      <article class="panel"><div class="callout-number">.49</div><h2>Cognitive outcomes</h2><p>Sailer & Homner meta-analysis: significant positive cognitive effect.</p></article>
+      <article class="panel"><div class="callout-number">.36</div><h2>Motivational outcomes</h2><p>Same meta-analysis: smaller but significant motivational effect.</p></article>
+      <article class="panel"><div class="callout-number">.25</div><h2>Behavioral outcomes</h2><p>Same meta-analysis: significant positive behavioral effect.</p></article>
+    </div>
+    <div class="panel"><div class="table-wrap"><table><thead><tr><th>Evidence</th><th>Type</th><th>Result</th><th>How to use it</th></tr></thead><tbody id="evidence-table"></tbody></table></div></div>
+    <article class="panel"><h2>What not to claim</h2><ul><li>Do not present the 85%/91% Classcraft case studies as guaranteed outcomes.</li><li>Do not say points or dopamine “cause” learning. Motivation is multi-determined and novelty can decay.</li><li>Do not equate engagement metrics with wellbeing, learning, or safety without independent measures.</li><li>Do not use behavior data to diagnose students or automate punitive decisions.</li></ul></article>
+  </section>
+
+  <section id="launch" class="route" data-route="launch">
+    <div class="page-head"><p class="eyebrow">Pre-launch → reveal → first 30 days</p><h1>Launch architecture</h1><p class="lead">Build expectancy first, then deliver a reveal large enough to justify the anticipation. The default model protects students from collective punishment and protects staff from a rollout they cannot sustain.</p></div>
+    <div class="grid two">
+      <article class="panel"><h2>Community readiness streak</h2><div style="display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap"><div id="readiness-ring" class="readiness-ring" style="--pct:0"><div><strong id="streak-days">0</strong><br><span>of <b id="streak-target-label">7</b> days</span></div></div><div style="flex:1;min-width:250px"><label>Target days<input id="streak-target" type="number" min="1" max="30" value="7"></label><div class="button-row"><button id="add-ready-day" class="primary">Record readiness day</button><button id="record-support-event" class="secondary">Record support event</button><button id="reset-streak" class="danger">Reset demo streak</button></div><p id="streak-message" class="muted"></p></div></div></article>
+      <article class="panel"><h2>Fairness rule</h2><p><strong>One student's incident does not publicly reset the whole school.</strong> A readiness day is based on schoolwide criteria such as routines, supervision, staff readiness, and aggregate safety. Individual events trigger support and required safeguarding procedures. Leadership can delay a launch only for a genuine schoolwide readiness issue, with neutral messaging.</p><label class="checkline"><input id="strict-reset" type="checkbox"> Demo an optional strict reset policy <span class="tip" tabindex="0" data-tip="Not recommended. Collective reset rules can create blame and peer retaliation. Included only so teams can compare policy consequences in the planner.">?</span></label></article>
+    </div>
+    <div class="timeline">
+      <article><strong>T−21 to T−14</strong><div><h3>Staff alignment</h3><p>Define 3–5 positive expectations, safeguarding escalation, roles, rewards, data rules, accommodations, pilot metrics, and “what happens if this goes wrong.”</p></div></article>
+      <article><strong>T−10</strong><div><h3>Mystery appears</h3><p>Place non-threatening signage: “Something big is coming.” “Every safe, respectful day brings the portal closer.” QR codes can lead to a countdown page with no leaderboard or student names.</p></div></article>
+      <article><strong>T−7</strong><div><h3>Readiness streak starts</h3><p>Staff record whether schoolwide criteria were met. Share progress, not incident details. Add tiny lore fragments, symbols, map pieces, or “signal transmissions.”</p></div></article>
+      <article><strong>T−1</strong><div><h3>The building changes overnight</h3><p>Banners, projected symbols, house/crew colors, hidden quest cards, hallway wayfinding, staff lanyards, and a sealed “first quest” box create physical evidence that the promise is real.</p></div></article>
+      <article><strong>Launch Day</strong><div><h3>The reveal</h3><p>5–12 minute cinematic opening → student choice of role → team formation → a live cooperative challenge → first reward → first academic quest. Optional projection mapping / AR can amplify the moment, but the experience still works with lights, sound, print, and performance.</p></div></article>
+      <article><strong>Days 1–30</strong><div><h3>Protect the honeymoon</h3><p>Keep mechanics simple, rotate novelty, publish what changed, measure workload and equity, retire mechanics that produce anxiety or gaming, and progressively hand students more authorship.</p></div></article>
+    </div>
+  </section>
+
+  <section id="signage" class="route" data-route="signage">
+    <div class="page-head"><p class="eyebrow">Print / hallway / digital signage</p><h1>Anticipation campaign</h1><p class="lead">Editable signs can be printed directly. Language is intentionally collective and future-oriented without threatening students or naming incident counts.</p></div>
+    <div class="panel no-print"><div class="form-grid"><label>School / program name<input id="school-name" value="Your School"></label><label>Readiness target<input id="sign-target" type="number" min="1" max="30" value="7"></label><label>Mystery phrase<input id="mystery-phrase" value="The next chapter is closer than you think."></label><label>Reveal theme<select id="reveal-theme"><option>Portal / new world</option><option>Expedition / explorers</option><option>Guild / academy</option><option>Future city / builders</option><option>Cosmic / constellation</option><option>Custom / neutral</option></select></label></div><div class="button-row"><button id="refresh-signs" class="primary">Refresh signs</button><button onclick="window.print()" class="secondary">Print signage + deck</button></div></div>
+    <div id="sign-grid" class="sign-grid"></div>
+    <article class="panel"><h2>Placement choreography</h2><div class="grid three"><div><strong>Entrances</strong><p>One high-contrast hero sign with the mystery phrase and no explanation.</p></div><div><strong>Hallway junctions</strong><p>Different fragments of a map/symbol so students compare what they saw.</p></div><div><strong>Cafeteria/library</strong><p>Countdown or community-readiness meter plus a short “how we unlock it together” message.</p></div><div><strong>Classrooms</strong><p>Teacher script and one hidden clue per room; avoid distracting from instruction.</p></div><div><strong>Digital signage</strong><p>Slow, reduced-motion-safe visual loop. No flashing, shame, or student rankings.</p></div><div><strong>Family channel</strong><p>A parallel message explaining goals, evidence, privacy, opt-outs/accommodations, and launch date.</p></div></div></article>
+  </section>
+
+  <section id="game" class="route" data-route="game">
+    <div class="page-head"><p class="eyebrow">Game layer</p><h1>Progress without turning children into points</h1><p class="lead">Borrow the strongest mechanics from original Classcraft—teams, XP, powers, quests, narrative, progress—but modernize the model around mastery, autonomy, restorative practice, accessibility, and anti-exploitation scoring.</p></div>
+    <div class="grid three" id="role-grid"></div>
+    <div class="grid two">
+      <article class="panel"><h2>Three currencies</h2><p><strong>Mastery XP</strong> records demonstrated learning. <strong>Community XP</strong> records verified contribution and teamwork. <strong>Sparks</strong> are low-stakes cosmetic/choice tokens. None can buy grades, essential support, food, bathroom access, or core learning.</p></article>
+      <article class="panel"><h2>Anti-Goodhart scoring</h2><p>Repeated low-value actions receive diminishing returns. Evidence and review are required for major badges. Team XP rewards cooperative milestones, but students cannot lose teammates' academic progress because of one person's behavior.</p></article>
+    </div>
+    <article class="panel"><h2>Sample powers / privileges</h2><div class="chip-cloud"><span class="chip">Choose the warm-up format</span><span class="chip">Unlock a side quest</span><span class="chip">Design the next random event</span><span class="chip">Pick team music during work time</span><span class="chip">Request a hint</span><span class="chip">Submit an alternate demonstration of mastery</span><span class="chip">Host a five-minute mini-lesson</span><span class="chip">Nominate a peer recognition</span><span class="chip">Open a maker-space challenge</span><span class="chip">Choose between two project pathways</span></div></article>
+    <article class="panel"><h2>Mechanics deliberately excluded by default</h2><p>Public “worst student” leaderboards, permanent streak loss, pay-to-win, peer punishment, essential-content locks, humiliation penalties, behavior-health systems that imply a child is “damaged,” and opaque algorithmic risk scores.</p></article>
+  </section>
+
+  <section id="quests" class="route" data-route="quests">
+    <div class="page-head"><p class="eyebrow">Quest engine</p><h1>Turn useful work into missions</h1><p class="lead">Quests tie narrative to actual curriculum, school culture, evidence, community, and student agency. Completion can be saved locally in this prototype.</p></div>
+    <div id="quest-grid" class="grid two"></div>
+    <article class="panel"><h2>Quest builder rules</h2><ol><li>Start with a real learning or community objective.</li><li>Give students a meaningful role and visible end-state.</li><li>Offer at least one choice in path, representation, collaboration, or difficulty where feasible.</li><li>Make success criteria observable.</li><li>Provide fast feedback.</li><li>Attach evidence to mastery badges.</li><li>Add narrative last; story should serve the task, not hide weak pedagogy.</li></ol></article>
+  </section>
+
+  <section id="behavior" class="route" data-route="behavior">
+    <div class="page-head"><p class="eyebrow">PBIS / SEL / restorative layer</p><h1>Teach expectations; don't merely score compliance</h1><p class="lead">The behavior system is designed as a support and feedback layer. It aligns with the evidence for clearly taught expectations, reminders, positive acknowledgement, multi-tiered supports, and data-informed review.</p></div>
+    <div class="grid three"><article class="panel"><h2>Tier 1 — everyone</h2><p>3–5 positively stated expectations, explicit teaching, frequent specific acknowledgement, classroom routines, belonging, universal access to quests and rewards.</p></article><article class="panel"><h2>Tier 2 — targeted</h2><p>Check-in/check-out, mentoring, goal cards, self-management tools, small-group practice, choice of supports, private progress views.</p></article><article class="panel"><h2>Tier 3 — individualized</h2><p>Individual plans, function-informed supports, coordinated family/professional input, safety plans where necessary, and strict separation from public gamification.</p></article></div>
+    <article class="panel"><h2>Incident → support workflow</h2><div class="timeline"><article><strong>1</strong><div><b>Safety first</b><p>Follow school policy and required safeguarding procedures. Game mechanics never supersede safety duties.</p></div></article><article><strong>2</strong><div><b>Record minimally</b><p>Capture only what is needed for legitimate school processes; avoid speculative labels.</p></div></article><article><strong>3</strong><div><b>Repair and reteach</b><p>When appropriate, provide a private restorative path, explicit skill practice, and a way back into the community.</p></div></article><article><strong>4</strong><div><b>Review patterns</b><p>Use aggregate and equity-aware data to improve environments and supports—not to automate punishment.</p></div></article></div></article>
+  </section>
+
+  <section id="people" class="route" data-route="people">
+    <div class="page-head"><p class="eyebrow">Four audiences</p><h1>One system, different surfaces</h1><p class="lead">The same underlying objects—quests, expectations, evidence, progress, supports, roles—are presented differently to students, educators, families, and leadership.</p></div>
+    <div class="grid four"><article class="panel"><h2>Student</h2><p>Quest map, role/crew, mastery graph, private progress, choices, reflection, accessibility preferences, celebration, help requests.</p></article><article class="panel"><h2>Teacher</h2><p>Fast recognition controls, lesson-to-quest builder, class pulse, accommodations, low-friction notes, workload warnings, intervention handoffs.</p></article><article class="panel"><h2>Family</h2><p>Plain-language progress, celebration, upcoming quests, opt-in home encouragement, privacy explanations, translation, contact pathways.</p></article><article class="panel"><h2>Leadership</h2><p>Aggregate climate, referrals, attendance, implementation fidelity, equity checks, teacher workload, pilot comparisons, decision log, budget and rollout readiness.</p></article></div>
+  </section>
+
+  <section id="analytics" class="route" data-route="analytics">
+    <div class="page-head"><p class="eyebrow">Measurement</p><h1>Measure outcomes, not just clicks</h1><p class="lead">The prototype includes a synthetic demo dashboard so teams can reason about metrics without uploading real student data.</p></div>
+    <div id="metric-grid" class="metric-grid"></div>
+    <article class="panel"><h2>Minimum viable evaluation set</h2><div class="table-wrap"><table><thead><tr><th>Domain</th><th>Primary metric</th><th>Guardrail</th><th>Cadence</th></tr></thead><tbody><tr><td>Behavior</td><td>Office referrals per 100 students</td><td>Disaggregate for disproportionality; do not optimize only for lower reporting</td><td>Weekly/monthly</td></tr><tr><td>Learning</td><td>Mastery / assessment growth</td><td>Compare with prior cohorts or matched classes where feasible</td><td>Unit/term</td></tr><tr><td>Engagement</td><td>Student self-report + participation</td><td>Do not treat point-giving as engagement</td><td>Biweekly</td></tr><tr><td>Belonging</td><td>Brief validated climate/belonging items</td><td>Anonymous where possible</td><td>Monthly/term</td></tr><tr><td>Equity</td><td>Access, recognition, referrals by relevant groups</td><td>Investigate gaps before scaling rewards</td><td>Monthly</td></tr><tr><td>Teacher load</td><td>Minutes/week + usability pulse</td><td>Pause features that add unsustainable work</td><td>Weekly first month</td></tr></tbody></table></div></article>
+  </section>
+
+  <section id="pilot" class="route" data-route="pilot">
+    <div class="page-head"><p class="eyebrow">Implementation</p><h1>90-day pilot that can actually answer something</h1></div>
+    <div class="timeline"><article><strong>Days 0–15</strong><div><h3>Baseline + co-design</h3><p>Collect baseline referrals/attendance/engagement/mastery; form a student advisory group; train staff; select expectations; test accessibility and privacy.</p></div></article><article><strong>Days 16–30</strong><div><h3>Soft launch</h3><p>Run teaser campaign and reveal; use only 3–4 mechanics; log staff workload; survey student excitement and anxiety separately.</p></div></article><article><strong>Days 31–60</strong><div><h3>Deepen the loop</h3><p>Add quests, student-authored random events, evidence-backed badges, family visibility, and targeted supports. Remove mechanics with obvious gaming or inequity.</p></div></article><article><strong>Days 61–90</strong><div><h3>Evaluate and decide</h3><p>Compare with baseline; inspect subgroup patterns and fidelity; hold student/staff focus groups; publish a concise results memo; decide expand / revise / stop.</p></div></article></div>
+    <div class="grid three"><article class="panel"><h2>Go</h2><p>Outcomes improve, student/staff sentiment is positive, workload is manageable, equity checks show no concerning gaps, and implementation fidelity is adequate.</p></article><article class="panel"><h2>Revise</h2><p>Engagement rises but learning/behavior does not; workload is high; mechanics are gamed; some groups report anxiety or exclusion.</p></article><article class="panel"><h2>Stop / replace</h2><p>Harms persist after revision, staff cannot sustain it, privacy requirements cannot be met, or the experience undermines belonging or learning.</p></article></div>
+  </section>
+
+  <section id="safeguards" class="route" data-route="safeguards">
+    <div class="page-head"><p class="eyebrow">Child-centered safeguards</p><h1>Make the game serve the child</h1></div>
+    <div class="grid two"><article class="panel"><h2>Required constraints</h2><ul class="checklist"><li>✓ No public shaming or negative leaderboards.</li><li>✓ No collective punishment for individual incidents.</li><li>✓ No loss of essential learning/support/food/bathroom access.</li><li>✓ No behavioral diagnosis by AI or engagement metrics.</li><li>✓ Private accommodations and non-game alternatives.</li><li>✓ Human review for consequential decisions.</li><li>✓ Minimize personally identifying data.</li><li>✓ Clear retention, export, deletion and access rules.</li><li>✓ Safeguarding policies override game narrative.</li></ul></article><article class="panel"><h2>Anti-inversion check</h2><p>Every mechanic should survive one question: <strong>Could a system intended to increase engagement accidentally reward surveillance, conformity, status competition, concealment of incidents, or peer retaliation?</strong></p><p>If yes, redesign the metric, visibility, reward, or decision authority before launch.</p></article></div>
+    <article class="panel"><h2>Student agency charter</h2><p>Students can understand the rules, see how progress is calculated, challenge errors, request help, use equivalent non-game pathways, protect sensitive information, and contribute to the design. Badges describe evidence; they do not define a child's worth.</p></article>
+  </section>
+
+  <section id="planner" class="route" data-route="planner">
+    <div class="page-head"><p class="eyebrow">No AI required</p><h1>Deterministic school transformation planner</h1><p class="lead">A repeatable rules engine creates a first implementation plan. Local/remote AI can refine drafts later, but core planning does not depend on a model.</p></div>
+    <div class="grid two"><article class="panel"><div class="form-grid"><label>Grade span<select id="plan-grade"><option>K–3</option><option>4–6</option><option selected>7–9</option><option>10–12</option><option>K–12</option></select></label><label>Students<input id="plan-size" type="number" min="20" value="650"></label><label>Primary goal<select id="plan-goal"><option>Reduce behavior incidents</option><option selected>Increase engagement</option><option>Improve belonging</option><option>Increase academic mastery</option><option>Strengthen attendance</option><option>Improve cross-school culture</option></select></label><label>Implementation scope<select id="plan-scope"><option>One classroom</option><option>One grade</option><option selected>Whole school</option><option>District pilot</option></select></label><label>Staff readiness<select id="plan-readiness"><option>Low</option><option selected>Medium</option><option>High</option></select></label><label>Technology<select id="plan-tech"><option>Minimal / print-first</option><option selected>Chromebooks / web</option><option>1:1 devices + projection</option><option>Mixed / uncertain</option></select></label></div><label style="margin-top:1rem">Known constraints<textarea id="plan-constraints" rows="5">Keep teacher workload low; protect student privacy; no public negative leaderboards; launch should feel unforgettable.</textarea></label><button id="run-planner" class="primary" style="margin-top:1rem">Generate plan</button></article><article class="panel"><h2>Plan output</h2><pre id="planner-output" class="planner-output" aria-live="polite">Choose inputs and generate a plan.</pre></article></div>
+  </section>
+
+  <section id="collaboration" class="route" data-route="collaboration">
+    <div class="page-head"><p class="eyebrow">Collaboration architecture</p><h1>Multiplayer where it helps—not where it creates risk</h1></div>
+    <div class="grid two"><article class="panel"><h2>Safe prototype: same-origin staff sync</h2><p>This demo uses BroadcastChannel to synchronize a short staff-design note across tabs on the same origin. It demonstrates local collaboration plumbing without creating an open student chat service.</p><label>Shared staff note<textarea id="shared-note" rows="7" placeholder="Open a second tab to see this note synchronize…"></textarea></label><p id="sync-status" class="muted">BroadcastChannel status pending.</p></article><article class="panel"><h2>Production path</h2><p>The Foundry's WebRTC/Trystero concept is appropriate for direct browser collaboration, but a real K–12 deployment needs managed identity, authorization, moderation, durable state, audit, recovery, retention rules, and network fallbacks. Direct P2P should not become an unsupervised student messaging layer.</p><div class="chip-cloud"><span class="chip">WebRTC DataChannels</span><span class="chip">Trystero discovery</span><span class="chip">TURN fallback</span><span class="chip">Protocol versioning</span><span class="chip">Rate limits</span><span class="chip">Moderation queue</span><span class="chip">Audit trail</span></div></article></div>
+  </section>
+
+  <section id="diagnostics" class="route" data-route="diagnostics">
+    <div class="page-head"><p class="eyebrow">Runtime / resilience</p><h1>Capability & diagnostics lab</h1><p class="lead">No advanced capability should be assumed. This page inspects the current browser and explains graceful fallbacks.</p></div>
+    <div id="capability-grid" class="grid three"></div>
+    <article class="panel"><h2>Local-AI readiness</h2><p id="ai-readiness">Run diagnostics to inspect WebGPU, memory hints, concurrency and recommended local-model class.</p><div class="button-row"><button id="run-diagnostics" class="primary">Run diagnostics</button><button id="copy-diagnostics" class="secondary">Copy report</button></div><pre id="diagnostic-output" class="planner-output">No diagnostics run yet.</pre></article>
+  </section>
+
+  <section id="foundry" class="route" data-route="foundry">
+    <div class="page-head"><p class="eyebrow">Feature Fusion traceability</p><h1>108 adapted Foundry capabilities</h1><p class="lead">These are the uploaded Foundry concepts selected because they improve engagement, efficacy, resilience, governance, accessibility, or implementation quality in this school context.</p></div>
+    <label>Filter capabilities<input id="foundry-filter" type="search" placeholder="quest, offline, accessibility, provenance, diagnostics…"></label>
+    <div id="foundry-grid" class="grid three" style="margin-top:1rem"></div>
+  </section>
+
+  <section id="settings" class="route" data-route="settings">
+    <div class="page-head"><p class="eyebrow">Portable configuration</p><h1>Settings & data sovereignty</h1></div>
+    <div class="grid two"><article class="panel"><h2>Preferences</h2><label class="checkline"><input id="gamification-toggle" type="checkbox" checked> Enable gamified visual layer</label><label class="checkline"><input id="analytics-toggle" type="checkbox" checked> Enable local synthetic analytics widgets</label><label class="checkline"><input id="splash-toggle" type="checkbox" checked> Show cinematic splash on next fresh browser</label><p class="muted">All settings are local to this browser in this prototype.</p></article><article class="panel"><h2>Data controls</h2><p>Export/import uses a versioned JSON document. Destructive reset requires confirmation. This prototype does not claim cross-device synchronization.</p><div class="button-row"><button id="export-state-2" class="secondary">Export JSON</button><button id="clear-state" class="danger">Reset local state</button></div></article></div>
+    <article class="panel"><h2>Attributions & licenses</h2><p>Architecture concepts were selectively adapted from the user-supplied <em>Feature Fusion Foundry</em>. Classcraft is referenced for historical/product-research context; no proprietary Classcraft code, art, story content, or trademarks are reproduced as product assets. Research citations remain with their original authors/publishers. Original bundle code: MIT-style reuse permitted; see README.</p><p><strong>Zero-Harm / Anti-Inversion:</strong> engagement mechanics must remain subordinate to student dignity, safety, privacy, accessibility, learning, and due process.</p></article>
+  </section>
+
+  <footer class="footer"><strong>Level Up Learning — K–12 Gamified School OS</strong><br><span>Foster + Navi / Planetary Restoration Archive · Evidence-grounded prototype · No student PII required</span></footer>
+</main>
+
+<aside class="rightbar" id="rightbar" aria-label="Progress HUD">
+  <p class="eyebrow">Live HUD</p><h3>Transformation status</h3>
+  <div class="hud-stat"><strong id="hud-xp">0 XP</strong><br><span class="muted">prototype progress</span></div>
+  <div class="hud-stat"><strong id="hud-quests">0 / 8</strong><br><span class="muted">sample quests complete</span></div>
+  <div class="hud-stat"><strong id="hud-streak">0 days</strong><br><span class="muted">community readiness</span></div>
+  <div class="hud-stat"><strong id="hud-evidence">9 records</strong><br><span class="muted">evidence matrix</span></div>
+  <div class="spacer"></div><h3>System principles</h3><div class="chip-cloud"><span class="chip">Agency</span><span class="chip">Mastery</span><span class="chip">Belonging</span><span class="chip">Evidence</span><span class="chip">Privacy</span><span class="chip">Recovery</span></div>
+</aside>
+</div>
+
+<dialog id="search-dialog" class="search-dialog"><form method="dialog"><div style="display:flex;gap:.5rem"><input id="global-search" type="search" placeholder="Search the entire OS…" autofocus><button class="secondary">Close</button></div></form><div id="search-results" class="search-results"></div></dialog>
+<script src="./assets/app.js"></script>
+</body>
+</html>

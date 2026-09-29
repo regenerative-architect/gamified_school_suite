@@ -1,0 +1,1195 @@
+[
+  {
+    "id": "f001",
+    "name": "IndexedDB",
+    "summary": "Structured transactional browser database for application state.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "data",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f005",
+    "name": "Schema migrations",
+    "summary": "Version and upgrade persisted data safely.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "data",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f006",
+    "name": "Portable workspace bundles",
+    "summary": "Export selected state, files and metadata as a transportable package.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "data",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f008",
+    "name": "Incremental backups",
+    "summary": "Persist only changed records or blocks after a baseline snapshot.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "data",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f019",
+    "name": "BroadcastChannel",
+    "summary": "Send same-origin messages between tabs and workers.",
+    "maturity": "stable",
+    "tags": [
+      "performance",
+      "browser",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f031",
+    "name": "Adaptive quality",
+    "summary": "Scale graphics and compute based on device capability.",
+    "maturity": "stable",
+    "tags": [
+      "performance",
+      "gpu",
+      "wasm"
+    ]
+  },
+  {
+    "id": "f032",
+    "name": "WebLLM",
+    "summary": "Run compatible language models in-browser with WebGPU.",
+    "maturity": "stable",
+    "tags": [
+      "ai",
+      "webllm",
+      "rag"
+    ]
+  },
+  {
+    "id": "f035",
+    "name": "Hybrid AI router",
+    "summary": "Select local or remote inference by privacy, cost and capability.",
+    "maturity": "stable",
+    "tags": [
+      "ai",
+      "webllm",
+      "rag"
+    ]
+  },
+  {
+    "id": "f038",
+    "name": "Agent planner/executor/verifier",
+    "summary": "Separate planning, execution and checking into explicit stages.",
+    "maturity": "stable",
+    "tags": [
+      "ai",
+      "webllm",
+      "rag"
+    ]
+  },
+  {
+    "id": "f039",
+    "name": "AI provenance",
+    "summary": "Record model, time, source context and review status.",
+    "maturity": "stable",
+    "tags": [
+      "ai",
+      "webllm",
+      "rag"
+    ]
+  },
+  {
+    "id": "f042",
+    "name": "WebRTC DataChannels",
+    "summary": "Direct encrypted browser-to-browser data transport.",
+    "maturity": "stable",
+    "tags": [
+      "multiplayer",
+      "realtime",
+      "network"
+    ]
+  },
+  {
+    "id": "f043",
+    "name": "Trystero peer discovery",
+    "summary": "Abstract signaling and direct WebRTC room formation.",
+    "maturity": "stable",
+    "tags": [
+      "multiplayer",
+      "realtime",
+      "network"
+    ]
+  },
+  {
+    "id": "f072",
+    "name": "Input/schema validation",
+    "summary": "Reject malformed imported or network data.",
+    "maturity": "stable",
+    "tags": [
+      "security",
+      "integrity",
+      "privacy"
+    ]
+  },
+  {
+    "id": "f074",
+    "name": "Capability-based permissions",
+    "summary": "Grant narrowly scoped actions rather than broad admin authority.",
+    "maturity": "stable",
+    "tags": [
+      "security",
+      "integrity",
+      "privacy"
+    ]
+  },
+  {
+    "id": "f089",
+    "name": "Data inventory dashboard",
+    "summary": "Show what information the application stores.",
+    "maturity": "stable",
+    "tags": [
+      "privacy",
+      "sovereignty",
+      "consent"
+    ]
+  },
+  {
+    "id": "f091",
+    "name": "Portable export",
+    "summary": "Download user-controlled data in open formats.",
+    "maturity": "stable",
+    "tags": [
+      "privacy",
+      "sovereignty",
+      "consent"
+    ]
+  },
+  {
+    "id": "f099",
+    "name": "Print/PDF views",
+    "summary": "Provide deliberate print layouts.",
+    "maturity": "stable",
+    "tags": [
+      "files",
+      "browser",
+      "ux"
+    ]
+  },
+  {
+    "id": "f101",
+    "name": "Full-text search",
+    "summary": "Index and search local or remote text.",
+    "maturity": "stable",
+    "tags": [
+      "search",
+      "knowledge",
+      "rag"
+    ]
+  },
+  {
+    "id": "f110",
+    "name": "Claim-evidence linking",
+    "summary": "Attach one or more evidence records to a claim.",
+    "maturity": "stable",
+    "tags": [
+      "evidence",
+      "provenance",
+      "research"
+    ]
+  },
+  {
+    "id": "f111",
+    "name": "Evidence quality fields",
+    "summary": "Record type, limitations and applicability.",
+    "maturity": "stable",
+    "tags": [
+      "evidence",
+      "provenance",
+      "research"
+    ]
+  },
+  {
+    "id": "f116",
+    "name": "Hash verification",
+    "summary": "Fingerprint files or records.",
+    "maturity": "stable",
+    "tags": [
+      "evidence",
+      "provenance",
+      "research"
+    ]
+  },
+  {
+    "id": "f119",
+    "name": "Capability registry",
+    "summary": "Track what the browser, user and deployment support.",
+    "maturity": "stable",
+    "tags": [
+      "architecture",
+      "modules",
+      "scalability"
+    ]
+  },
+  {
+    "id": "f125",
+    "name": "Route registry",
+    "summary": "Generate navigation and breadcrumbs from one source.",
+    "maturity": "stable",
+    "tags": [
+      "architecture",
+      "modules",
+      "scalability"
+    ]
+  },
+  {
+    "id": "f126",
+    "name": "Feature flags",
+    "summary": "Enable features by environment or cohort.",
+    "maturity": "stable",
+    "tags": [
+      "architecture",
+      "modules",
+      "scalability"
+    ]
+  },
+  {
+    "id": "f135",
+    "name": "Progressive enhancement",
+    "summary": "Start from a functional baseline and add advanced capabilities.",
+    "maturity": "stable",
+    "tags": [
+      "resilience",
+      "offline",
+      "quality"
+    ]
+  },
+  {
+    "id": "f137",
+    "name": "Offline mutation queue",
+    "summary": "Store writes until network returns.",
+    "maturity": "stable",
+    "tags": [
+      "resilience",
+      "offline",
+      "quality"
+    ]
+  },
+  {
+    "id": "f143",
+    "name": "Local diagnostics console",
+    "summary": "Show capability and error state to the user.",
+    "maturity": "stable",
+    "tags": [
+      "observability",
+      "privacy",
+      "ops"
+    ]
+  },
+  {
+    "id": "f150",
+    "name": "Redacted bug bundles",
+    "summary": "Package diagnostics without private content.",
+    "maturity": "stable",
+    "tags": [
+      "observability",
+      "privacy",
+      "ops"
+    ]
+  },
+  {
+    "id": "f154",
+    "name": "Offline tests",
+    "summary": "Verify operation with network disabled.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f156",
+    "name": "Accessibility tests",
+    "summary": "Automate common WCAG checks and keyboard paths.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f158",
+    "name": "Self-test dashboard",
+    "summary": "Let deployments inspect key runtime functions.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f162",
+    "name": "Reduced motion",
+    "summary": "Honor system/user motion preferences.",
+    "maturity": "stable",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "ux"
+    ]
+  },
+  {
+    "id": "f181",
+    "name": "Constellation UI",
+    "summary": "Use optional spatial metaphor for exploration and progress.",
+    "maturity": "stable",
+    "tags": [
+      "visualization",
+      "canvas",
+      "graph"
+    ]
+  },
+  {
+    "id": "f211",
+    "name": "Notification inbox",
+    "summary": "Keep an in-app durable record of important alerts.",
+    "maturity": "stable",
+    "tags": [
+      "notifications",
+      "background",
+      "pwa"
+    ]
+  },
+  {
+    "id": "f215",
+    "name": "Installable manifest",
+    "summary": "Describe app identity, icons and display mode.",
+    "maturity": "stable",
+    "tags": [
+      "pwa",
+      "offline",
+      "native"
+    ]
+  },
+  {
+    "id": "f216",
+    "name": "Versioned service worker",
+    "summary": "Cache application shell and manage upgrades.",
+    "maturity": "stable",
+    "tags": [
+      "pwa",
+      "offline",
+      "native"
+    ]
+  },
+  {
+    "id": "f234",
+    "name": "Risk register",
+    "summary": "Track likelihood, impact, mitigations and owners.",
+    "maturity": "stable",
+    "tags": [
+      "decision",
+      "simulation",
+      "analysis"
+    ]
+  },
+  {
+    "id": "f252",
+    "name": "Conflict-of-interest disclosure",
+    "summary": "Record relevant conflicts.",
+    "maturity": "stable",
+    "tags": [
+      "governance",
+      "collaboration",
+      "trust"
+    ]
+  },
+  {
+    "id": "f255",
+    "name": "Quest engine",
+    "summary": "Represent useful work as structured missions.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f256",
+    "name": "Skill trees",
+    "summary": "Show learning and capability pathways.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f257",
+    "name": "Team XP",
+    "summary": "Reward cooperative achievement.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f258",
+    "name": "Contribution ledger",
+    "summary": "Record meaningful verified actions.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f259",
+    "name": "Achievement provenance",
+    "summary": "Attach evidence to badges.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f260",
+    "name": "Community milestones",
+    "summary": "Track collective progress.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f261",
+    "name": "Anti-Goodhart rules",
+    "summary": "Reduce incentives to spam measured actions.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f262",
+    "name": "Disable-gamification mode",
+    "summary": "Keep core functionality available without game UI.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f263",
+    "name": "Command palette",
+    "summary": "Search and execute actions from the keyboard.",
+    "maturity": "stable",
+    "tags": [
+      "ux",
+      "navigation",
+      "workspace"
+    ]
+  },
+  {
+    "id": "f264",
+    "name": "Universal search",
+    "summary": "Search across modules and object types.",
+    "maturity": "stable",
+    "tags": [
+      "ux",
+      "navigation",
+      "workspace"
+    ]
+  },
+  {
+    "id": "f270",
+    "name": "Responsive drawer/navigation",
+    "summary": "Use one route registry across desktop and mobile menus.",
+    "maturity": "stable",
+    "tags": [
+      "ux",
+      "navigation",
+      "workspace"
+    ]
+  },
+  {
+    "id": "f278",
+    "name": "Knowledge packs",
+    "summary": "Export a curated subset of linked material.",
+    "maturity": "stable",
+    "tags": [
+      "knowledge",
+      "collaboration",
+      "wiki"
+    ]
+  },
+  {
+    "id": "f279",
+    "name": "JSON Schema",
+    "summary": "Validate portable structured objects.",
+    "maturity": "stable",
+    "tags": [
+      "interop",
+      "standards",
+      "api"
+    ]
+  },
+  {
+    "id": "f303",
+    "name": "Skills graph",
+    "summary": "Link people to specific skills and evidence.",
+    "maturity": "stable",
+    "tags": [
+      "skills",
+      "roles",
+      "matchmaking"
+    ]
+  },
+  {
+    "id": "f304",
+    "name": "Competency evidence",
+    "summary": "Attach projects or assessments to skills.",
+    "maturity": "stable",
+    "tags": [
+      "skills",
+      "roles",
+      "matchmaking"
+    ]
+  },
+  {
+    "id": "f305",
+    "name": "Learning goals",
+    "summary": "Let participants state skills they want to develop.",
+    "maturity": "stable",
+    "tags": [
+      "skills",
+      "roles",
+      "matchmaking"
+    ]
+  },
+  {
+    "id": "f332",
+    "name": "Kick/ban with audit",
+    "summary": "Allow moderators to restrict access transparently.",
+    "maturity": "stable",
+    "tags": [
+      "moderation",
+      "trust",
+      "safety"
+    ]
+  },
+  {
+    "id": "f335",
+    "name": "New-user safeguards",
+    "summary": "Limit high-impact actions until trust is established.",
+    "maturity": "stable",
+    "tags": [
+      "moderation",
+      "trust",
+      "safety"
+    ]
+  },
+  {
+    "id": "f336",
+    "name": "Appeals process",
+    "summary": "Permit moderation decisions to be challenged.",
+    "maturity": "stable",
+    "tags": [
+      "moderation",
+      "trust",
+      "safety"
+    ]
+  },
+  {
+    "id": "f360",
+    "name": "Privacy-preserving local analytics",
+    "summary": "Compute personal usage insights on-device.",
+    "maturity": "stable",
+    "tags": [
+      "analytics",
+      "impact",
+      "ops"
+    ]
+  },
+  {
+    "id": "f361",
+    "name": "Meta-prompt chain",
+    "summary": "Compose staged prompts for architecture, risks, implementation and verification.",
+    "maturity": "stable",
+    "tags": [
+      "agents",
+      "ai",
+      "prompting"
+    ]
+  },
+  {
+    "id": "f363",
+    "name": "Planner-executor-critic loop",
+    "summary": "Separate planning from action and evaluation.",
+    "maturity": "stable",
+    "tags": [
+      "agents",
+      "ai",
+      "prompting"
+    ]
+  },
+  {
+    "id": "f376",
+    "name": "Unknowns detector",
+    "summary": "Turn missing evidence and expertise into tasks.",
+    "maturity": "stable",
+    "tags": [
+      "systems",
+      "safety",
+      "ethics"
+    ]
+  },
+  {
+    "id": "f378",
+    "name": "Competency pathways",
+    "summary": "Define staged skill development.",
+    "maturity": "stable",
+    "tags": [
+      "learning",
+      "mentorship",
+      "gamification"
+    ]
+  },
+  {
+    "id": "f393",
+    "name": "Schema registry",
+    "summary": "Version and validate shared object contracts.",
+    "maturity": "stable",
+    "tags": [
+      "events",
+      "architecture",
+      "data"
+    ]
+  },
+  {
+    "id": "f421",
+    "name": "Deterministic replay debugger",
+    "summary": "Replay recorded events through the same reducers to reproduce distributed bugs.",
+    "maturity": "stable",
+    "tags": [
+      "frontier",
+      "production",
+      "security",
+      "scale",
+      "events",
+      "debugging"
+    ]
+  },
+  {
+    "id": "f434",
+    "name": "Automatic local backups",
+    "summary": "Create periodic local recovery points without requiring the user to manually export every session.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "data",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f435",
+    "name": "Selective export/import",
+    "summary": "Let users move only chosen projects, records, settings or evidence instead of exporting an entire workspace.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "data",
+      "resilience"
+    ]
+  },
+  {
+    "id": "f445",
+    "name": "Conflict detection UI",
+    "summary": "Surface concurrent edits and ambiguous merges to people instead of silently discarding one side.",
+    "maturity": "stable",
+    "tags": [
+      "offline",
+      "sync",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "f474",
+    "name": "Model download/install manager",
+    "summary": "Provide explicit model installation, progress, pause/retry, integrity and removal controls.",
+    "maturity": "stable",
+    "tags": [
+      "ai",
+      "webllm",
+      "rag"
+    ]
+  },
+  {
+    "id": "f481",
+    "name": "Schema-constrained generation",
+    "summary": "Require AI output to validate against a JSON or typed schema before downstream automation accepts it.",
+    "maturity": "stable",
+    "tags": [
+      "ai",
+      "webllm",
+      "rag"
+    ]
+  },
+  {
+    "id": "f632",
+    "name": "Schema validation tests",
+    "summary": "Verify fixtures and migrations against versioned data contracts.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f633",
+    "name": "Import/export round-trip tests",
+    "summary": "Export representative state, re-import it and verify semantic equivalence.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f634",
+    "name": "Offline behavior tests",
+    "summary": "Verify essential workflows remain usable when the network disappears.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f637",
+    "name": "Keyboard navigation tests",
+    "summary": "Verify interactive flows can be completed without a pointing device.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f640",
+    "name": "Corrupt-import tests",
+    "summary": "Feed malformed or adversarial imports and verify they are rejected safely.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f645",
+    "name": "Deterministic fixtures",
+    "summary": "Use stable test datasets so results can be compared across versions.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f646",
+    "name": "Synthetic demo datasets",
+    "summary": "Ship privacy-safe representative data for demos, onboarding and repeatable testing.",
+    "maturity": "stable",
+    "tags": [
+      "testing",
+      "quality",
+      "devops"
+    ]
+  },
+  {
+    "id": "f648",
+    "name": "Skip links",
+    "summary": "Provide keyboard users a direct path past repeated navigation into primary content.",
+    "maturity": "stable",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "ux"
+    ]
+  },
+  {
+    "id": "f651",
+    "name": "ARIA live regions",
+    "summary": "Announce important asynchronous status changes without forcing users to hunt visually.",
+    "maturity": "stable",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "ux"
+    ]
+  },
+  {
+    "id": "f657",
+    "name": "Touch-target auditing",
+    "summary": "Verify controls meet practical mobile target-size and spacing requirements.",
+    "maturity": "stable",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "ux"
+    ]
+  },
+  {
+    "id": "f658",
+    "name": "Accessible chart equivalents",
+    "summary": "Provide tables, summaries or descriptions that communicate chart data non-visually.",
+    "maturity": "stable",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "ux"
+    ]
+  },
+  {
+    "id": "f660",
+    "name": "Keyboard shortcut map",
+    "summary": "Document and expose all shortcuts with conflict-safe customization.",
+    "maturity": "stable",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "ux"
+    ]
+  },
+  {
+    "id": "f737",
+    "name": "Assignment routing",
+    "summary": "Route tasks to people or teams based on roles, skills, capacity and project rules.",
+    "maturity": "stable",
+    "tags": [
+      "workflow",
+      "automation",
+      "coordination"
+    ]
+  },
+  {
+    "id": "f741",
+    "name": "Workflow history",
+    "summary": "Record transitions, actors and outputs for audit and debugging.",
+    "maturity": "stable",
+    "tags": [
+      "workflow",
+      "automation",
+      "coordination"
+    ]
+  },
+  {
+    "id": "f748",
+    "name": "Impact/likelihood matrix",
+    "summary": "Visualize risk categories while preserving underlying evidence and uncertainty.",
+    "maturity": "stable",
+    "tags": [
+      "decision",
+      "simulation",
+      "analysis"
+    ]
+  },
+  {
+    "id": "f762",
+    "name": "Reproducible calculation provenance",
+    "summary": "Record formulas, inputs, software versions and transformations behind derived values.",
+    "maturity": "stable",
+    "tags": [
+      "science",
+      "data",
+      "analysis"
+    ]
+  },
+  {
+    "id": "f767",
+    "name": "Decision review dates",
+    "summary": "Schedule future reassessment when evidence, conditions or outcomes may change.",
+    "maturity": "stable",
+    "tags": [
+      "governance",
+      "collaboration",
+      "trust"
+    ]
+  },
+  {
+    "id": "f770",
+    "name": "Unlockable educational material",
+    "summary": "Reveal optional learning content after relevant progress without gating essential information.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f771",
+    "name": "Restoration/resource meters",
+    "summary": "Visualize real project indicators as game-like meters while clearly distinguishing measured from simulated progress.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f772",
+    "name": "Knowledge mastery tracking",
+    "summary": "Track demonstrated learning across concepts and activities with transparent evidence.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f773",
+    "name": "Forgiving streaks",
+    "summary": "Use recoverable streak mechanics that encourage continuity without punishing unavoidable breaks.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f774",
+    "name": "Anti-exploitation scoring",
+    "summary": "Detect repetitive or low-value actions intended only to farm rewards.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f775",
+    "name": "No-pay-to-win design",
+    "summary": "Keep progress tied to participation, learning or verified contribution rather than purchased advantage.",
+    "maturity": "stable",
+    "tags": [
+      "gamification",
+      "learning",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f778",
+    "name": "Customizable dashboards",
+    "summary": "Let users choose useful widgets and arrangements without hiding a functional default.",
+    "maturity": "stable",
+    "tags": [
+      "ux",
+      "navigation",
+      "workspace"
+    ]
+  },
+  {
+    "id": "f782",
+    "name": "Interactive onboarding",
+    "summary": "Teach real controls through short optional tasks rather than passive tours.",
+    "maturity": "stable",
+    "tags": [
+      "ux",
+      "navigation",
+      "workspace"
+    ]
+  },
+  {
+    "id": "f783",
+    "name": "Searchable help system",
+    "summary": "Index built-in documentation, tooltips and troubleshooting guidance from one search surface.",
+    "maturity": "stable",
+    "tags": [
+      "ux",
+      "navigation",
+      "workspace"
+    ]
+  },
+  {
+    "id": "f790",
+    "name": "Evidence-quality labels",
+    "summary": "Display transparent evidence attributes rather than hiding quality judgments in ranking algorithms.",
+    "maturity": "stable",
+    "tags": [
+      "knowledge",
+      "collaboration",
+      "wiki"
+    ]
+  },
+  {
+    "id": "f812",
+    "name": "Accessibility collaboration preferences",
+    "summary": "Let participants voluntarily share collaboration preferences such as captions or reduced-motion needs.",
+    "maturity": "stable",
+    "tags": [
+      "presence",
+      "multiplayer",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "f829",
+    "name": "Trusted-member roles",
+    "summary": "Grant bounded moderation or review capabilities to established participants with audit history.",
+    "maturity": "stable",
+    "tags": [
+      "moderation",
+      "trust",
+      "safety"
+    ]
+  },
+  {
+    "id": "f830",
+    "name": "Content review queue",
+    "summary": "Route flagged or high-risk content into a structured human review workflow.",
+    "maturity": "stable",
+    "tags": [
+      "moderation",
+      "trust",
+      "safety"
+    ]
+  },
+  {
+    "id": "f832",
+    "name": "Mass-edit safeguards",
+    "summary": "Require previews, confirmation or stronger permissions for large destructive edits.",
+    "maturity": "stable",
+    "tags": [
+      "moderation",
+      "trust",
+      "safety"
+    ]
+  },
+  {
+    "id": "f840",
+    "name": "WebRTC success-rate metric",
+    "summary": "Measure how often direct peer connections succeed versus relay or server fallback.",
+    "maturity": "stable",
+    "tags": [
+      "analytics",
+      "impact",
+      "ops"
+    ]
+  },
+  {
+    "id": "f841",
+    "name": "Reconnect-rate metric",
+    "summary": "Measure session instability without turning diagnostics into user surveillance.",
+    "maturity": "stable",
+    "tags": [
+      "analytics",
+      "impact",
+      "ops"
+    ]
+  },
+  {
+    "id": "f850",
+    "name": "Second-order effect map",
+    "summary": "Trace plausible indirect consequences across domains and label them as hypotheses until evidence exists.",
+    "maturity": "stable",
+    "tags": [
+      "systems",
+      "safety",
+      "ethics"
+    ]
+  },
+  {
+    "id": "f853",
+    "name": "Mentorship requests",
+    "summary": "Let learners request scoped guidance tied to explicit goals and availability.",
+    "maturity": "stable",
+    "tags": [
+      "learning",
+      "mentorship",
+      "gamification"
+    ]
+  },
+  {
+    "id": "f856",
+    "name": "People \u2194 skills graph",
+    "summary": "Navigate relationships between participants and declared or evidenced skills.",
+    "maturity": "stable",
+    "tags": [
+      "discovery",
+      "recommendations",
+      "graph"
+    ]
+  },
+  {
+    "id": "f858",
+    "name": "Evidence \u2194 claims graph",
+    "summary": "Navigate from a claim to supporting, contradicting and superseding evidence.",
+    "maturity": "stable",
+    "tags": [
+      "discovery",
+      "recommendations",
+      "graph"
+    ]
+  },
+  {
+    "id": "f900",
+    "name": "Render-loop and frame-pacing architecture",
+    "summary": "Centralize requestAnimationFrame updates, delta time, pause state, visibility handling and workload budgets.",
+    "maturity": "stable",
+    "tags": [
+      "render-loop",
+      "animation",
+      "performance",
+      "visualization"
+    ]
+  },
+  {
+    "id": "f905",
+    "name": "Cinematic splash orchestration",
+    "summary": "Coordinate preload state, motion layers, progress messaging, enter controls, fade-out and hard fail-safe dismissal as one splash state machine.",
+    "maturity": "stable",
+    "tags": [
+      "splash",
+      "cinematic",
+      "animation",
+      "resilience"
+    ]
+  }
+]
