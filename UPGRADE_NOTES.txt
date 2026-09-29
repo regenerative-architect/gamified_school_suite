@@ -1,0 +1,44 @@
+overview page should have an animated rotating wheel matching users chosen theme with more examples. motionfx, visualfx, particlefx and creatures, shine or other light attributes would be a nice touch
+
+pitch deck should be animated and more comprehensive
+
+signage campaign not working and print button has no color + the only pages showing in the print preview are in the middle of 50 pages or so on each side
+
+game system should be animated to include much more detailed info and preferably inspire innovation for teachers to brainstorm their own possibilites via thematic/domain instrucions rather than specifics (think themes, environments, genres. Not locations, entities or set-in-stone/locked locales). Metaprompt chains with modular architecture and the aforementioned tips would be a good start). Think of all the rpg games you've ever played (especially mmos) and pull from there after paraphrasing (or not).
+
+three cirremcies section and antigoodhart scoring should be encouraged by teachers to students to innovate. The system/game should never be finished. Eventually, a mycelial web of exponential possibilities will be banked for hybridization of techniques, rules, genres, stories, characters, quests, boss-battles (tests/exams against teachers), etc.
+
+quest engine should have checklists, simplified advanced guides, modular routes, non-required elements, challenging elements, powerups could be used or applied here. Cooperative studies via quests would allow for specific classesroles to use class-specific abilities such as solo to solo heals, group heals, revives, blocks, special abiliies usable in class (student blocked from being penalized for entering class late, class benefits such as eatingdrinking in class, able to leave, trickster plays, etc.
+
+pbis/sel section needs inter-doscplinary targetting (age ranges, students, teachers, staff) and much more detailed steps, info, examples
+
+student - staff - family section should be expanded to include all faculty. Also needs exhaustively comprehensive content expansion with tips, recommendations and potential gamified additions to their own departments
+
+analytics section should me editable, Minimum viable evaluation set should be more detailed, have more examples and clear links to potential gamification for adhering/disregarding, etc
+
+90 day pilots section more details, reference classcraft/habitica/liferpg for templates
+
+safeguards section needs lengthier descriptions with color coded words/sentences/sections/emojis for actionable pathways and/or opportunities to include gamification for following/breaking rules, Emoji-richness would look nice on this page.
+
+deterministic planner needs local-ai context aware assistance (animated sprite or pet of your choice would be a nice aesthetic here). meta-prompt chains with modular buttons and drop downs for interdisciplinary/cross domain syntehsis and sectoral/keyword/cluster grouping with selectable alternatives and ai assisted hinting would be magic here. Ensure easy-to-use webllm integration is found before applying to this page (needs to stay simple for the litluns lol
+
+
+
+
+
+
+
+Splash screen should stay locked when visiting page until user chooses their age, favorite class/teaching class, theme, pet, etc then present the OS accordingly. Might be a good idea to have multiple splash screens, numbers 13 or under will likely want heavy customization while they browse and wont mind clicking lots of menus). ~Advanced challenge - AI could mould the experience in realtime based on their choices early-mid game, known constraints should have placeholders/hints/clear examples (modular)
+
+collaboration tab needs crdt import/export and trystero or p2p might be out of the question here due to ages - ask claude to run a security scan when all other changes are made (use applicable forensic-level audit custom prompts when running)
+
+diagnostics tab - should run checks on all included foundry traceability entries
+
+
+
+check https://regenerative-architect.github.io/feature_fusion_foundry/ for more additions (likely mising 30 or so for exceptional appeal/functionality
+
+
+
+
+
